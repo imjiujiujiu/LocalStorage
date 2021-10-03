@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Custom Style -->
+	<link rel="stylesheet" href="css/style.min.css">
+
+	<title>Local Storage</title>
+</head>
+<body onload="PrintList()">
+	<section>
+		<h2>Local Storage</h2>
+		<div class="form-group">
+			<input id="addValue" type="text" placeholder="Add your list here" value="">
+			<button id="addBtn" onclick="getData()">+</button>
+		</div>
+		<ul id="myList">
+			
+		</ul>
+		<div id="clearBtn"><button onclick="clearData()">Clear All</button></div>
+	</section>
+
+	
+
+	<!-- Custom js -->
+	<script src="js/interactive.js"></script>
+</body>
+</html>
