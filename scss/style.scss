@@ -137,6 +137,10 @@ button {
 			flex: 3;
 		}
 
+		label {
+			cursor: pointer;
+		}
+
 		.hasDone {
 			text-decoration: line-through;
 		}

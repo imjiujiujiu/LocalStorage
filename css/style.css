@@ -134,6 +134,9 @@ button.del:before {
       -ms-flex: 3;
           flex: 3;
 }
+#myList li label {
+  cursor: pointer;
+}
 #myList li .hasDone {
   text-decoration: line-through;
 }
