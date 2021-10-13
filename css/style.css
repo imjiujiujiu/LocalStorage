@@ -129,10 +129,13 @@ button.del:before {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-#myList li span, #myList li input {
+#myList li label, #myList li span, #myList li input {
   -webkit-box-flex: 3;
       -ms-flex: 3;
           flex: 3;
+}
+#myList li .hasDone {
+  text-decoration: line-through;
 }
 #myList li input {
   max-width: calc(100% - 150px);

@@ -15,7 +15,8 @@ function PrintList() {
 		listArray.forEach (function (element, index) {
 			newList += `
 			<li>
-				<span>${element}</span>
+				<label><input type="checkbox">${element}</label>
+				<!--<span>${element}</span>-->
 				<input value="${element}" style="display: none;">
 				<button class="edit" onclick="editList(${index})"></button>
 				<button class="done" onclick="editDone(${index})" style="display: none;"></button>

@@ -133,8 +133,12 @@ button {
 		align-items: center;
 		justify-content: space-around;
 
-		span, input {
+		label, span, input {
 			flex: 3;
+		}
+
+		.hasDone {
+			text-decoration: line-through;
 		}
 
 		input {
